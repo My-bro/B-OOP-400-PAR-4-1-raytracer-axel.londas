@@ -59,7 +59,7 @@ void Display::handlePicture(RayTracer::Element &element)
                 _image.setPixel(x, y, nearest_color_point.second);
             }
             if (firstFrame == true) {
-                std::cout << static_cast<int>(nearest_color_point.second.r) << " " << static_cast<int>(nearest_color_point.second.g) << " " << static_cast<int>(nearest_color_point.second.b) << std::endl;
+                // std::cout << static_cast<int>(nearest_color_point.second.r) << " " << static_cast<int>(nearest_color_point.second.g) << " " << static_cast<int>(nearest_color_point.second.b) << std::endl;
             }
         }
     }

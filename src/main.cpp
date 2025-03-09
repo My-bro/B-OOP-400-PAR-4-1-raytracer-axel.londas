@@ -15,8 +15,8 @@ void printEveryElement(RayTracer::Element &element)
 {
     std::cout << element.camera << std::endl;
     std::cout << element.lights << std::endl;
-    for (std::size_t i = 0; i < element.primitivesFactory->_primitives.size(); i++)
-        std::cout << element.primitivesFactory->_primitives[i] << std::endl;
+    // for (std::size_t i = 0; i < element.primitivesFactory->_primitives.size(); i++)
+        // std::cout << element.primitivesFactory->_primitives[i] << std::endl;
 }
 
 int main(int ac, char *const av[])
